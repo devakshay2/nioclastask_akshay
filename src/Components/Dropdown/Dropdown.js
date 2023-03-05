@@ -17,7 +17,7 @@ const Dropdown = () => {
         { 
          questions.map((item,i) => {
             return(
-               <Link className={classes.dropdownContent} key={i}  to={`/${item.questionId}`}>{item.question}</Link>
+               <Link onClick={handleOpen} className={classes.dropdownContent} key={i}  to={`/${item.questionId}`}>{item.question}</Link>
             )
          })
        }</div>
