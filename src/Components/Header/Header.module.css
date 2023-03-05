@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.content {
+  display: block;
+  min-height: 1.2em;
+  font-size:25px;
+  text-align:center;
+  text-decoration: none;
+  color: #000;
+  margin: 5px;
+}

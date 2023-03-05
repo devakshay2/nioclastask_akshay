@@ -1,8 +1,14 @@
-import './App.css';
+import { MathJaxContext } from 'better-react-mathjax';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './Pages/router';
+
 
 function App() {
   return (
-    <p>hi</p>
+    <MathJaxContext>
+      <RouterProvider router={router}/>
+    </MathJaxContext>
+    
   );
 }
 
