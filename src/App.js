@@ -1,12 +1,13 @@
 import { MathJaxContext } from 'better-react-mathjax';
-import { RouterProvider } from 'react-router-dom';
-import { router } from './Pages/router';
+import Header from './Components/Header/Header';
+import QuestionComponent from './Components/QuestionComponent/QuestionComponent';
 
 
 function App() {
   return (
     <MathJaxContext>
-      <RouterProvider router={router}/>
+      <Header/>
+      <QuestionComponent/>
     </MathJaxContext>
     
   );
