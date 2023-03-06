@@ -1,0 +1,9 @@
+#forward, #back{
+    font-size: 50px;
+    font-weight: 900;
+    user-select: none;
+}
+#forward:hover, #back:hover{
+    color: blue;
+    cursor: pointer;
+}
